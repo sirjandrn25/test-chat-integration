@@ -28,6 +28,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <script
+          defer
+          data-orgId="test1"
+          src={`https://portal.chatboq.com/widget.js`}
+        ></script>
       </body>
     </html>
   );
